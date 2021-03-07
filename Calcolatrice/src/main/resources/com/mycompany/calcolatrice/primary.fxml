@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane blendMode="DARKEN" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.calcolatrice.PrimaryController">
+   <children>
+      <ImageView fitHeight="423.0" fitWidth="634.0" layoutX="-11.0" layoutY="-7.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../f2.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="jTextField1" alignment="CENTER_RIGHT" layoutX="44.0" layoutY="23.0" prefHeight="71.0" prefWidth="546.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </TextField>
+      <Label layoutX="30.0" layoutY="4.0" text="Calcolatrice@Gulsina" textFill="#dd4194">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Label>
+      <Button fx:id="idAC" layoutX="45.0" layoutY="112.0" mnemonicParsing="false" onAction="#actionAC" prefHeight="48.0" prefWidth="82.0" text="AC" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id1" layoutX="45.0" layoutY="171.0" mnemonicParsing="false" onAction="#action1" prefHeight="48.0" prefWidth="82.0" text="1" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id7" layoutX="45.0" layoutY="288.0" mnemonicParsing="false" onAction="#action_7" prefHeight="48.0" prefWidth="82.0" text="7" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id4" layoutX="45.0" layoutY="229.0" mnemonicParsing="false" onAction="#action_4" prefHeight="48.0" prefWidth="82.0" text="4" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id5" layoutX="138.0" layoutY="229.0" mnemonicParsing="false" onAction="#action_5" prefHeight="48.0" prefWidth="82.0" text="5" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id8" layoutX="138.0" layoutY="288.0" mnemonicParsing="false" onAction="#action_8" prefHeight="48.0" prefWidth="82.0" text="8" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id2" layoutX="138.0" layoutY="171.0" mnemonicParsing="false" onAction="#action_2" prefHeight="48.0" prefWidth="82.0" text="2" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idsin" layoutX="138.0" layoutY="112.0" mnemonicParsing="false" onAction="#action_sin" prefHeight="48.0" prefWidth="82.0" text="sin" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id6" layoutX="231.0" layoutY="229.0" mnemonicParsing="false" onAction="#action_6" prefHeight="48.0" prefWidth="82.0" text="6" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id9" layoutX="231.0" layoutY="288.0" mnemonicParsing="false" onAction="#action_9" prefHeight="48.0" prefWidth="82.0" text="9" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id3" layoutX="231.0" layoutY="171.0" mnemonicParsing="false" onAction="#action_3" prefHeight="48.0" prefWidth="82.0" text="3" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idcos" layoutX="231.0" layoutY="112.0" mnemonicParsing="false" onAction="#action_cos" prefHeight="48.0" prefWidth="82.0" text="cos" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="iddiv" layoutX="324.0" layoutY="229.0" mnemonicParsing="false" onAction="#action_div" prefHeight="48.0" prefWidth="82.0" text="/" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id0" layoutX="324.0" layoutY="288.0" mnemonicParsing="false" onAction="#action_0" prefHeight="48.0" prefWidth="82.0" text="0" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idmultiply" layoutX="324.0" layoutY="171.0" mnemonicParsing="false" onAction="#action_multiply" prefHeight="48.0" prefWidth="82.0" text="*" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idtg" layoutX="324.0" layoutY="112.0" mnemonicParsing="false" onAction="#action_tg" prefHeight="48.0" prefWidth="82.0" text="tg" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idplus" layoutX="417.0" layoutY="229.0" mnemonicParsing="false" onAction="#action_plus" prefHeight="48.0" prefWidth="82.0" text="+" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idminus" layoutX="417.0" layoutY="288.0" mnemonicParsing="false" onAction="#action_minus" prefHeight="48.0" prefWidth="82.0" text="-" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idlog" layoutX="417.0" layoutY="171.0" mnemonicParsing="false" onAction="#action_log" prefHeight="48.0" prefWidth="82.0" text="log" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idbackslash" layoutX="417.0" layoutY="112.0" mnemonicParsing="false" onAction="#action_backslash" prefHeight="48.0" prefWidth="82.0" text="&lt;-" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="id1x" layoutX="510.0" layoutY="229.0" mnemonicParsing="false" onAction="#action_1x" prefHeight="48.0" prefWidth="82.0" text="1/x" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idx2" layoutX="510.0" layoutY="288.0" mnemonicParsing="false" onAction="#action_x2" prefHeight="48.0" prefWidth="82.0" text="x^2" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idpercentage" layoutX="510.0" layoutY="171.0" mnemonicParsing="false" onAction="#action_percentage" prefHeight="48.0" prefWidth="82.0" text="\%" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="idequials" layoutX="510.0" layoutY="112.0" mnemonicParsing="false" onAction="#action_equals" prefHeight="48.0" prefWidth="82.0" text="=" textAlignment="CENTER" textFill="#098fb9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
